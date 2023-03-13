@@ -24,7 +24,7 @@ public class UserServiceImplTest {
         request.setAddress("address");
         request.setEmail("enamesit@gmail.com");
 
-        User user = userService.registerNewUser(request);[]
+        User user = userService.registerNewUser(request);
 
         assertEquals(1, user.getId());
         User foundUser = userService.findUser(1);
